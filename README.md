@@ -18,6 +18,14 @@ INSTALLED_APPS = (
 )
 ```
 
+```python
+MIDDLEWARE_CLASSES = (
+    ..
+    'http_errors.middleware.HandleHttpErrorsMiddleware',
+    ..
+)
+```
+
 How to use
 ----------
 
